@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/fr/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
-  <id>https://cecilapp.github.io/the-butler/fr/</id>
-  <title>Tier Comparison</title>
+  <id>https://cecilapp.github.io/the-butler/fr/blog/</id>
+  <title>Tier Comparison - Blog</title>
   <subtitle><![CDATA[Un blog statique prêt à l’emploi, propulsé par Cecil.]]></subtitle>
-  <link href="https://cecilapp.github.io/the-butler/fr/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cecilapp.github.io/the-butler/fr/" rel="alternate" type="text/html" />
+  <link href="https://cecilapp.github.io/the-butler/fr/blog/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cecilapp.github.io/the-butler/fr/blog/" rel="alternate" type="text/html" />
   <updated>2020-02-05T15:43:00+01:00</updated>
   <author>
     <name>Tier Comparison</name>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/fr/xsl/atom.xsl" media="all"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
-  <id>https://cecilapp.github.io/the-butler/fr/</id>
-  <title>Tier Comparison</title>
-  <subtitle><![CDATA[Un blog statique prêt à l’emploi, propulsé par Cecil.]]></subtitle>
-  <link href="https://cecilapp.github.io/the-butler/fr/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cecilapp.github.io/the-butler/fr/" rel="alternate" type="text/html" />
+<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://cecilapp.github.io/the-butler/tags/electronique/</id>
+  <title>Tier Comparison - Électronique</title>
+  <subtitle><![CDATA[Documentation for Tier Comparison]]></subtitle>
+  <link href="https://cecilapp.github.io/the-butler/tags/electronique/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cecilapp.github.io/the-butler/tags/electronique/" rel="alternate" type="text/html" />
   <updated>2020-02-05T15:43:00+01:00</updated>
   <author>
     <name>Tier Comparison</name>
     <uri>https://cecilapp.github.io/the-butler/</uri>
   </author>
-  <entry xml:lang="fr">
+  <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/fr/blog/daft-punk/</id>
     <title>Daft Punk</title>
     <content type="html">
