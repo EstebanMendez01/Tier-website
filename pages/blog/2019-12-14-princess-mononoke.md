@@ -6,4 +6,8 @@ tags:
   - Automation
 draft: false
 ---
-I﻿nstructions:
+## How to use it?
+
+### I﻿nstructions:
+
+The tool was implemented to make the life of professors easier. The tool is for reading the Google Sheets sheet with the grades, in other words, the grade book. The grade book will be analyzed and will sort all of the grades between tiers in the document. Then, the program is going to create issues for those who have green, yellow, and red tiers. The professor is going to edit the message that wants to be sent, and after that, the issue will be created.
