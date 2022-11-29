@@ -23,10 +23,4 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://cecilapp.github.io/the-butler/fr/blog/daft-punk/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://cecilapp.github.io/the-butler/blog/daft-punk/" />
   </url>
-  <url>
-    <loc>https://cecilapp.github.io/the-butler/blog/doom/</loc>
-    <lastmod>2019-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
