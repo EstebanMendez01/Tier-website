@@ -10,7 +10,7 @@ keywords:
 author: Arnaud Ligny
 date:
   format: j F Y
-  timezone: United States
+  timezone: Europe/Paris
 hyde:
   sidebar:
     sticky: true
