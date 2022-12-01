@@ -21,3 +21,5 @@ The tool was implemented to make the life of professors easier. The tool is for 
 3. N﻿ext edit the \`create_issues\` yml, to make sure that the issues that you are creating are the right ones. 
 4. R﻿un the file for \`ReadandWrite\` to make sure that the file is sorting the data correctly.
 5. A﻿fter making sure that it works correctly, you can start to run the file to post the issues to the users that you want after running the sorting.
+
+![](/images/screenshot-2022-12-01-122543.png "Sorting")
