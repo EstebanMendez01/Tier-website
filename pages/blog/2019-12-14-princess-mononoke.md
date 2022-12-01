@@ -23,3 +23,5 @@ The tool was implemented to make the life of professors easier. The tool is for 
 
    ![Sorting grades](/images/screenshot-2022-12-01-122543.png "Sort")
 5. A﻿fter making sure that it works correctly, you can start to run the file to post the issues to the users that you want after running the sorting.
+
+   ![Creating issues](/images/issues.png "Issues")
