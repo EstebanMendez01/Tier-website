@@ -19,6 +19,8 @@ The tool was implemented to make the life of professors easier. The tool is for 
 1. Add the path to your private token for both the Google Sheets and Github APIs. The path needs to be added to the python files.
 2. W﻿hen added make sure that the Google Sheets API is working correctly.
 3. N﻿ext edit the \`create_issues\` yml, to make sure that the issues that you are creating are the right ones. 
+
+   ![yml file](/images/yml.png "yml file")
 4. R﻿un the file for \`ReadandWrite\` to make sure that the file is sorting the data correctly.
 
    ![Sorting grades](/images/screenshot-2022-12-01-122543.png "Sort")
