@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>https://cecilapp.github.io/the-butler/tags/automation/</id>
-  <title>Tier Comparison - Automation</title>
+  <id>https://cecilapp.github.io/the-butler/tags/tiers/</id>
+  <title>Tier Comparison - Tiers</title>
   <subtitle><![CDATA[Documentation for Tier Comparison]]></subtitle>
-  <link href="https://cecilapp.github.io/the-butler/tags/automation/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cecilapp.github.io/the-butler/tags/automation/" rel="alternate" type="text/html" />
+  <link href="https://cecilapp.github.io/the-butler/tags/tiers/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cecilapp.github.io/the-butler/tags/tiers/" rel="alternate" type="text/html" />
   <updated>2022-11-29T21:09:53+01:00</updated>
   <author>
     <name>Tier Comparison</name>
