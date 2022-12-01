@@ -1,7 +1,7 @@
 ---
 title: Instructions
 date: 2022-11-29T20:09:53.181Z
-image: /images/logo.png
+image: /images/free_sample_by_wix-removebg-preview.png
 tags:
   - Automation
 draft: false
