@@ -20,10 +20,41 @@ The tool was implemented to make the life of professors easier. The tool is for 
 2. W﻿hen added make sure that the Google Sheets API is working correctly.
 3. N﻿ext edit the \`create_issues\` yml, to make sure that the issues that you are creating are the right ones. 
 
-   ![yml file](/images/yml.png "yml file")
-4. R﻿un the file for \`ReadandWrite\` to make sure that the file is sorting the data correctly.
+   ```
+   # Create an issue
+   # labels are optional
+   - type: issue
+     action: create
+     repo: CMPSC-203-Allegheny-College-Fall-2022/Tier-comparison
+     title: Green Tier
+     body: This is the green tier. You are doing great!
+     labels:
+       - SheetShuttle
+       - Automated
+
+   # Create an issue
+   # labels are optional
+   - type: issue
+     action: create
+     repo: CMPSC-203-Allegheny-College-Fall-2022/Tier-comparison
+     title: Yellow Tier
+     body: This is the yellow tier. You are doing some good things, but need to get to green tier.
+     labels:
+       - SheetShuttle
+       - Automated
+   ```
+4. R﻿un the file for \`ReadWriteGoogleSheet\` by running the command \`python ReadWriteGoogleSheet.py\`. To make sure that the file is sorting the data correctly.
 
    ![Sorting grades](/images/screenshot-2022-12-01-122543.png "Sort")
 5. A﻿fter making sure that it works correctly, you can start to run the file to post the issues to the users that you want after running the sorting.
 
    ![Creating issues](/images/issues.png "Issues")
+
+
+6. N﻿ow in the ReadWriteGoogleSheets file you should be able to change the cells that need to be analyzed, in this case we have \`C2:C5\`. Then you can change the value of the letter that is inside the f-string, depending on the cells that are being analyzed.
+
+   ```
+   grades = 'C2:C5'
+
+   sheet.format(f"C{cell.row}",{"backgroundColor": {"red": 0.0,"green": 1.0,"blue": 0.0}})
+   ```
