@@ -67,6 +67,6 @@ sheet.format(f"C{cell.row}",{"backgroundColor": {"red": 0.0,"green": 1.0,"blue":
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/" rel="alternate" type="text/html" />
     <published>2022-11-29T21:09:53+01:00</published>
-    <updated>2022-12-06T22:33:30+01:00</updated>
+    <updated>2022-12-06T22:36:23+01:00</updated>
   </entry>
 </feed>
