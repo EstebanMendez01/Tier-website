@@ -6,7 +6,6 @@
 ![BuiltWith](https://img.shields.io/badge/Built%20With-Python-blue?style=flat&logo=python&logoColor=yellow)
 
 
-![Logo](/config/logo_tier.png "Tier-comparison")
 
 
 Project 2 CMPSC 203
