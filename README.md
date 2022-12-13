@@ -1,75 +1,23 @@
-# The Butler
+# Tier Comparison
 
-_The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app).
+![checks](https://img.shields.io/github/checks-status/CMPSC-203-Allegheny-College-Fall-2022/Tier-comparison/014dfbc1be908f63f862f039d267813b2734d187)
+![Commit](https://img.shields.io/github/commit-activity/w/CMPSC-203-Allegheny-College-Fall-2022/Tier-comparison)
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat) 
+![BuiltWith](https://img.shields.io/badge/Built%20With-Python-blue?style=flat&logo=python&logoColor=yellow)
 
-[![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app "the-butler.cecil.app")
 
-## There is a demo?
+![Logo](/config/logo_tier.png "Tier-comparison")
 
-:arrow_forward: [the-butler-demo.cecil.app](https://the-butler-demo.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde#readme), host: [Netlify](https://www.netlify.com))  
-:arrow_forward: [the-butler-garth.vercel.app](https://the-butler-garth.vercel.app) (theme: [Garth](https://github.com/Cecilapp/theme-garth#readme), host: [Vercel](https://vercel.com))
 
-## How to use?
+Project 2 CMPSC 203
 
-### Managing content
+This project consists on an enhancement for SheetsShuttle and Gatorgrade. 
 
-#### Manually
+## Description of the project:
 
-Create your own repository from the [GitHub template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `pages/blog/`.
+In this project, We are creating different tiers for different grades within sheetshuttle. We will create various code segments within the sheetshuttle program to determine what tiers those students are recieving. This will also determine what the student(s) will need to work to improve for their next projects and for there future development withing computer science.
 
-#### Netlify CMS
+- Easier for Professors
+- Checkout GitHub API
 
-The easiest way to deploy and manage your blog is certainly with [Netlify](https://www.netlify.com) + [Netlify CMS](https://www.netlifycms.org).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify")
-
-#### Forestry CMS
-
-If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to [Forestry CMS](https://forestry.io) and start editing immediatelly!
-
-[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://cecil.app/cms/forestry/import/ "Import to Forestry")
-
-### Customize your blog
-
-1. Change configuration by editing [`config.yml`](https://github.com/Cecilapp/the-butler/blob/master/config.yml) file
-2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
-   - [Hyde](https://github.com/Cecilapp/theme-hyde#readme): [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts)
-   - [Garth](https://github.com/Cecilapp/theme-garth#readme): [`themes/garth/layouts/`](https://github.com/Cecilapp/theme-garth/tree/master/layouts)
-
-### Build & deploy
-
-#### Locally
-
-Run the following command in a terminal:
-
-```bash
-bash ./scripts/build.sh
-```
-
-#### Cloud
-
-| Solution | Demo | Deploy |
-|----------|------|--------|
-| [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify") |
-| [Vercel](https://vercel.com) | <https://the-butler.vercel.app> | [![Deploy to Vercel](https://vercel.com/button)](https://cecil.app/hosting/vercel/deploy/ "Deploy to Vercel") |
-| [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://cecil.app/hosting/render/deploy/ "Deploy to Render") |
-| [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | - Framework preset: `None`<br />- Build command: `curl -sSOL https://cecil.app/build.sh && bash ./build.sh`<br />- Build output directory: `_site` |
-| [GitHub](https://github.com/features/actions/) | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml). |
-| [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://cecilapp.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
-| [Travis CI](https://travis-ci.com) | N/A | See [Travis config file.](/.travis.yml) |
-
-To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
-
-1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
-2. invite a user
-3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
-
-## Need Help?
-
-Read the [Cecil's documentation](https://cecil.app/documentation/) and/or ask help in Cecil's [Discussions](https://github.com/Cecilapp/Cecil/discussions).
-
-## License
-
-_The Butler_ is a free software distributed under the terms of the MIT license.
-
-© [Arnaud Ligny](https://arnaudligny.fr)
+[Website Documentation](https://tier-comparison.netlify.app/)
