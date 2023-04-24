@@ -27,7 +27,28 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/references/" rel="alternate" type="text/html" />
     <published>2022-12-09T22:19:40+01:00</published>
-    <updated>2023-04-24T02:38:59+02:00</updated>
+    <updated>2023-04-24T02:41:19+02:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://cecilapp.github.io/the-butler/blog/developers/</id>
+    <title>Developers</title>
+    <content type="html">
+      <![CDATA[<p>T﻿he developers for this plugin are:</p>
+<ul>
+<li><a href="https://github.com/EstebanMendez01">E﻿steban Mendez</a></li>
+<li><a href="https://github.com/tmiller-10">T﻿yler Miller</a></li>
+<li><a href="https://github.com/brendengray">B﻿renden Gray</a></li>
+<li><a href="https://github.com/Danniyb">D﻿aniel Bekele</a></li>
+</ul>
+<p>Upgraded by: </p>
+<ul>
+<li>E﻿steban Mendez</li>
+<li>T﻿yler Miller</li>
+</ul>]]>
+    </content>
+    <link href="https://cecilapp.github.io/the-butler/blog/developers/" rel="alternate" type="text/html" />
+    <published>2022-12-09T22:13:59+01:00</published>
+    <updated>2023-04-24T02:41:19+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/features/</id>
@@ -43,7 +64,7 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/features/" rel="alternate" type="text/html" />
     <published>2022-12-06T22:29:30+01:00</published>
-    <updated>2023-04-24T02:38:59+02:00</updated>
+    <updated>2023-04-24T02:41:19+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</id>
@@ -97,6 +118,6 @@ sheet.format(f"C{cell.row}",{"backgroundColor": {"red": 0.0,"green": 1.0,"blue":
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/" rel="alternate" type="text/html" />
     <published>2022-11-29T21:09:53+01:00</published>
-    <updated>2023-04-24T02:38:59+02:00</updated>
+    <updated>2023-04-24T02:41:19+02:00</updated>
   </entry>
 </feed>
