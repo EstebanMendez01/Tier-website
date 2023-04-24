@@ -5,6 +5,7 @@ tags:
   - ComputerScience
   - Python
   - SoftwareEngineer
+  - Automation
 draft: false
 ---
 T﻿he developers for this plugin are:
@@ -13,3 +14,8 @@ T﻿he developers for this plugin are:
 * [T﻿yler Miller](https://github.com/tmiller-10)
 * [B﻿renden Gray](https://github.com/brendengray)
 * [D﻿aniel Bekele](https://github.com/Danniyb)
+
+Upgraded by: 
+
+* E﻿steban Mendez
+* T﻿yler Miller
