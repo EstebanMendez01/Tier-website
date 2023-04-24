@@ -114,7 +114,7 @@
           </ol>
         </article>
         <footer>
-          <p>Flux généré par <a href="https://cecil.app/#7.28.1">Cecil v7.28.1</a></p>
+          <p>Flux généré par <a href="https://cecil.app/#7.36.1">Cecil v7.36.1</a></p>
         </footer>
       </body>
     </html>
