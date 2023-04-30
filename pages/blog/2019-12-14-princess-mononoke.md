@@ -1,6 +1,6 @@
 ---
 title: Instructions
-date: 2022-11-29T20:09:53.181Z
+date: 2023-04-30T22:00:00.000Z
 image: /images/free_sample_by_wix-removebg-preview.png
 tags:
   - Automation
