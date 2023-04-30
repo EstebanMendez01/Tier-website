@@ -16,6 +16,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://cecilapp.github.io/the-butler/" />
   </url>
   <url>
+    <loc>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</loc>
+    <lastmod>2023-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://cecilapp.github.io/the-butler/blog/features/</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -30,12 +36,6 @@
   <url>
     <loc>https://cecilapp.github.io/the-butler/blog/references/</loc>
     <lastmod>2022-12-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</loc>
-    <lastmod>2022-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

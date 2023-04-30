@@ -69,6 +69,33 @@
         </div>
         <div class="post">
           <h1 class="post-title">
+            <a href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/">Instructions</a>
+          </h1>
+          <span class="post-date">May 1, 2023</span>
+          <h2 id="how-to-use-it">How to use it?</h2>
+<h3 id="dï-escription-of-the-tool">D﻿escription of the tool:</h3>
+<p>The tool was implemented to make the life of professors easier. The tool is for reading the Google Sheets sheet with the grades, in other words, the grade book. The grade book will be analyzed and will sort all of the grades between tiers in the document. Then, the program is going to create issues for those who have green, yellow, and red tiers. The professor is going to edit the message that wants to be sent, and after that, the issue will be created.</p>
+<ol>
+<li>Add the path to your private token for both the Google Sheets and Github APIs. The private keys need to be added as a secret token on Github. This private tokens need to have a name, in this case the names are ARBORIST for Github and GOOGLE_SHEET_KEY for the Google Sheets Key. Change this to the name that you want or even better if you use the names that are here to not change anything in the code. </li>
+<li>W﻿hen added make sure that the Google Sheets API is working correctly. Check Google Sheets API  website. </li>
+<li>
+<p>R﻿un the file for `ReadWriteGoogleSheet` by running the command `python ReadWriteGoogleSheet.py`. To make sure that the file is sorting the data correctly. The data that needs to be displayed are the Github usernames and the grades that they had for the assignment that is being analyzed.  This is inside the Tier-comparison repository.</p>
+<img src="https://cecilapp.github.io/the-butler/images/screenshot-2022-12-01-122543.0fa73816b29c7a0d61fda996f94d32f1.png" alt="Sorting grades" title="Sort" loading="lazy" decoding="async" width="460" height="290" />
+</li>
+<li>
+<p>A﻿fter making sure that it works correctly, you can start the Github actions in the Tier Tester main.yml. This will post the issues and show the Github usernames with their grades and tier. </p>
+<img src="https://cecilapp.github.io/the-butler/images/issues.c6e2ecca9c3e55ea63bf068a13910302.png" alt="Creating issues" title="Issues" loading="lazy" decoding="async" width="780" height="352" />
+</li>
+<li>
+<p>N﻿ow in the ReadWriteGoogleSheets file you should be able to change the cells that need to be analyzed, in this case we have `C2:C5`. Then you can change the value of the letter that is inside the f-string, depending on the cells that are being analyzed.</p>
+<pre><code>grades = 'C2:C5'
+
+sheet.format(f"C{cell.row}",{"backgroundColor": {"red": 0.0,"green": 1.0,"blue": 0.0}})</code></pre>
+</li>
+</ol>
+        </div>
+        <div class="post">
+          <h1 class="post-title">
             <a href="https://cecilapp.github.io/the-butler/blog/features/">Features</a>
           </h1>
           <span class="post-date">May 1, 2023</span>
@@ -111,33 +138,6 @@
 <!--StartFragment-->
 <p><a href="https://docs.gspread.org/en/v5.7.0/">gspread — gspread 5.7.0 documentation</a></p>
 <!--EndFragment-->
-        </div>
-        <div class="post">
-          <h1 class="post-title">
-            <a href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/">Instructions</a>
-          </h1>
-          <span class="post-date">November 29, 2022</span>
-          <h2 id="how-to-use-it">How to use it?</h2>
-<h3 id="dï-escription-of-the-tool">D﻿escription of the tool:</h3>
-<p>The tool was implemented to make the life of professors easier. The tool is for reading the Google Sheets sheet with the grades, in other words, the grade book. The grade book will be analyzed and will sort all of the grades between tiers in the document. Then, the program is going to create issues for those who have green, yellow, and red tiers. The professor is going to edit the message that wants to be sent, and after that, the issue will be created.</p>
-<ol>
-<li>Add the path to your private token for both the Google Sheets and Github APIs. The private keys need to be added as a secret token on Github. This private tokens need to have a name, in this case the names are ARBORIST for Github and GOOGLE_SHEET_KEY for the Google Sheets Key. Change this to the name that you want or even better if you use the names that are here to not change anything in the code. </li>
-<li>W﻿hen added make sure that the Google Sheets API is working correctly. Check Google Sheets API  website. </li>
-<li>
-<p>R﻿un the file for `ReadWriteGoogleSheet` by running the command `python ReadWriteGoogleSheet.py`. To make sure that the file is sorting the data correctly. The data that needs to be displayed are the Github usernames and the grades that they had for the assignment that is being analyzed.  This is inside the Tier-comparison repository.</p>
-<img src="https://cecilapp.github.io/the-butler/images/screenshot-2022-12-01-122543.0fa73816b29c7a0d61fda996f94d32f1.png" alt="Sorting grades" title="Sort" loading="lazy" decoding="async" width="460" height="290" />
-</li>
-<li>
-<p>A﻿fter making sure that it works correctly, you can start the Github actions in the Tier Tester main.yml. This will post the issues and show the Github usernames with their grades and tier. </p>
-<img src="https://cecilapp.github.io/the-butler/images/issues.c6e2ecca9c3e55ea63bf068a13910302.png" alt="Creating issues" title="Issues" loading="lazy" decoding="async" width="780" height="352" />
-</li>
-<li>
-<p>N﻿ow in the ReadWriteGoogleSheets file you should be able to change the cells that need to be analyzed, in this case we have `C2:C5`. Then you can change the value of the letter that is inside the f-string, depending on the cells that are being analyzed.</p>
-<pre><code>grades = 'C2:C5'
-
-sheet.format(f"C{cell.row}",{"backgroundColor": {"red": 0.0,"green": 1.0,"blue": 0.0}})</code></pre>
-</li>
-</ol>
         </div>
       </div>
 
