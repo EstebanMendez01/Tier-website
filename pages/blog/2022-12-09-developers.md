@@ -17,5 +17,5 @@ T﻿he developers for this plugin are:
 
 Upgraded by: 
 
-* E﻿steban Mendez
-* T﻿yler Miller
+* [E﻿steban Mendez](https://github.com/EstebanMendez01)
+* [T﻿yler Miller](https://github.com/tmiller-10)
