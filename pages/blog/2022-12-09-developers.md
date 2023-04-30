@@ -8,14 +8,14 @@ tags:
   - Automation
 draft: false
 ---
-T﻿he developers for this plugin are:
+**T﻿he developers for this plugin are:**
 
 * [E﻿steban Mendez](https://github.com/EstebanMendez01)
 * [T﻿yler Miller](https://github.com/tmiller-10)
 * [B﻿renden Gray](https://github.com/brendengray)
 * [D﻿aniel Bekele](https://github.com/Danniyb)
 
-Upgraded by: 
+**Upgraded by:** **(SPRING 2023)**
 
-* E﻿steban Mendez
-* T﻿yler Miller
+* [E﻿steban Mendez](https://github.com/EstebanMendez01)
+* [T﻿yler Miller](https://github.com/tmiller-10)
