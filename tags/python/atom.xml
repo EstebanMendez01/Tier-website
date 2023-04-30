@@ -26,7 +26,7 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/dependencies/" rel="alternate" type="text/html" />
     <published>2022-12-09T22:24:14+01:00</published>
-    <updated>2023-05-01T00:02:12+02:00</updated>
+    <updated>2023-05-01T00:03:56+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/references/</id>
@@ -44,27 +44,27 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/references/" rel="alternate" type="text/html" />
     <published>2022-12-09T22:19:40+01:00</published>
-    <updated>2023-05-01T00:02:12+02:00</updated>
+    <updated>2023-05-01T00:03:56+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/developers/</id>
     <title>Developers</title>
     <content type="html">
-      <![CDATA[<p>T﻿he developers for this plugin are:</p>
+      <![CDATA[<p><strong>T﻿he developers for this plugin are:</strong></p>
 <ul>
 <li><a href="https://github.com/EstebanMendez01">E﻿steban Mendez</a></li>
 <li><a href="https://github.com/tmiller-10">T﻿yler Miller</a></li>
 <li><a href="https://github.com/brendengray">B﻿renden Gray</a></li>
 <li><a href="https://github.com/Danniyb">D﻿aniel Bekele</a></li>
 </ul>
-<p>Upgraded by: </p>
+<p><strong>Upgraded by:</strong> <strong>(SPRING 2023)</strong></p>
 <ul>
-<li>E﻿steban Mendez</li>
-<li>T﻿yler Miller</li>
+<li><a href="https://github.com/EstebanMendez01">E﻿steban Mendez</a></li>
+<li><a href="https://github.com/tmiller-10">T﻿yler Miller</a></li>
 </ul>]]>
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/developers/" rel="alternate" type="text/html" />
     <published>2022-12-09T22:13:59+01:00</published>
-    <updated>2023-05-01T00:02:12+02:00</updated>
+    <updated>2023-05-01T00:03:56+02:00</updated>
   </entry>
 </feed>
